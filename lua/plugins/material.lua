@@ -2,7 +2,7 @@ return {
   "marko-cerovac/material.nvim",
   priority = 1000,
   config = function()
-    vim.g.material_style = "palenight" -- ocean, deep ocean, lighter, palenight
+    vim.g.material_style = "deep ocean"
 
     require("material").setup({
       contrast = {
@@ -22,7 +22,5 @@ return {
         "mini",
       },
     })
-
-    vim.cmd.colorscheme("material")
   end,
 }
