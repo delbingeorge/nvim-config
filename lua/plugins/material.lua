@@ -16,8 +16,7 @@ return {
       },
       plugins = {
         "gitsigns",
-        "nvim-tree",
-        "telescope",
+        "neo-tree",
         "which-key",
         "mini",
       },
