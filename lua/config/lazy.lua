@@ -18,6 +18,8 @@ require("lazy").setup({
   spec = {
     -- add LazyVim and import its plugins
     { "LazyVim/LazyVim", import = "lazyvim.plugins" },
+    -- use neo-tree as the file explorer (instead of the default Snacks explorer)
+    { import = "lazyvim.plugins.extras.editor.neo-tree" },
     -- import/override with your plugins
     { import = "plugins" },
   },
